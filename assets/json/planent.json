@@ -1,0 +1,117 @@
+{
+    "solarSystem": {
+        "planets": [
+            {
+                "id": 0,
+                "name": "Mercury",
+                "orderFromSun": 1,
+                "diameter": 4879.4,
+                "mass": "3.3011 × 10^23",
+                "numberOfSatellites": 0,
+                "hasRings": false,
+                "description": "Mercury is the smallest planet in the Solar System and the closest to the Sun. It has a rocky surface covered with impact craters caused by collisions with asteroids and comets. Mercury experiences extreme temperature fluctuations, with scorching days and freezing nights due to its lack of a substantial atmosphere.",
+                "averageOrbitalSpeed": "47.87 km/s",
+                "image": "assets/images/mercury.png",
+                "surfaceArea": "74.8 million km²",
+                "rotationPeriod": "58.6 Earth days"
+            },
+            {
+                "id": 1,
+                "name": "Venus",
+                "orderFromSun": 2,
+                "diameter": 12104,
+                "mass": "4.8675 × 10^24",
+                "numberOfSatellites": 0,
+                "hasRings": false,
+                "description": "Venus is often called Earth's twin because of its similar size and composition. However, its surface is inhospitable, with temperatures hot enough to melt lead and an atmosphere filled with carbon dioxide and sulfuric acid clouds. The planet's slow rotation causes a day on Venus to be longer than its year.",
+                "averageOrbitalSpeed": "35.02 km/s",
+                "image": "assets/images/venus.png",
+                "surfaceArea": "460.2 million km²",
+                "rotationPeriod": "243 Earth days (retrograde)"
+            },
+            {
+                "id": 2,
+                "name": "Earth",
+                "orderFromSun": 3,
+                "diameter": 12742,
+                "mass": "5.97237 × 10^24",
+                "numberOfSatellites": 1,
+                "hasRings": false,
+                "description": "Earth is the only planet in the Solar System known to support life, thanks to its liquid water, protective atmosphere, and moderate climate. It is home to vast oceans, diverse ecosystems, and millions of species. The Moon, Earth's only natural satellite, plays a crucial role in stabilizing its rotation and causing tides.",
+                "averageOrbitalSpeed": "29.78 km/s",
+                "image": "assets/images/earth.png",
+                "surfaceArea": "510.1 million km²",
+                "rotationPeriod": "24 hours"
+            },
+            {
+                "id": 3,
+                "name": "Mars",
+                "orderFromSun": 4,
+                "diameter": 6779,
+                "mass": "6.4171 × 10^23",
+                "numberOfSatellites": 2,
+                "hasRings": false,
+                "description": "Mars, often called the Red Planet, is characterized by its reddish surface caused by iron oxide (rust) in its soil. It features the tallest volcano in the Solar System, Olympus Mons, and a massive canyon system, Valles Marineris. Scientists are exploring Mars for signs of past life and its potential for future human colonization.",
+                "averageOrbitalSpeed": "24.07 km/s",
+                "image": "assets/images/mars.png",
+                "surfaceArea": "144.8 million km²",
+                "rotationPeriod": "24.6 hours"
+            },
+            {
+                "name": "Jupiter",
+                "orderFromSun": 5,
+                "diameter": 139820,
+                "mass": "1.8982 × 10^27",
+                "numberOfSatellites": 4,
+                "hasRings": true,
+                "description": "Jupiter is the largest planet in the Solar System, with a mass more than twice that of all other planets combined. It is known for its Great Red Spot, a gigantic storm that has been raging for centuries. Jupiter has dozens of moons, including Europa, which may harbor a subsurface ocean capable of supporting life.",
+                "averageOrbitalSpeed": "13.07 km/s",
+                "image": "assets/images/jupiter.png",
+                "surfaceArea": "61.42 billion km²",
+                "rotationPeriod": "9.9 hours"
+            },
+            {
+                "id": 4,
+                "name": "Saturn",
+                "orderFromSun": 6,
+                "diameter": 116460,
+                "mass": "5.6834 × 10^26",
+                "numberOfSatellites": 2,
+                "hasRings": true,
+                "description": "Saturn is famous for its extensive and visually stunning ring system made of ice and rock particles. It is a gas giant with a composition similar to Jupiter's, mostly hydrogen and helium. Saturn's largest moon, Titan, has a thick atmosphere and liquid methane lakes, making it a focus of astrobiological research.",
+                "averageOrbitalSpeed": "9.68 km/s",
+                "image": "assets/images/saturn.png",
+                "surfaceArea": "42.7 billion km²",
+                "rotationPeriod": "10.7 hours"
+            },
+            {
+                "id": 5,
+                "name": "Uranus",
+                "orderFromSun": 7,
+                "diameter": 50724,
+                "mass": "8.6810 × 10^25",
+                "numberOfSatellites": 2,
+                "hasRings": true,
+                "description": "Uranus is an ice giant with a pale blue-green color due to methane in its atmosphere. It has a unique sideways rotation, likely caused by a massive collision early in its history. Uranus has faint rings and several moons, with Miranda being particularly interesting for its dramatic surface features.",
+                "averageOrbitalSpeed": "6.80 km/s",
+                "image": "assets/images/uranus.png",
+                "surfaceArea": "8.083 billion km²",
+                "rotationPeriod": "17.2 hours"
+            },
+            {
+                "id": 6,
+                "name": "Neptune",
+                "orderFromSun": 8,
+                "diameter": 49244,
+                "mass": "1.02413 × 10^26",
+                "numberOfSatellites": 1,
+                "hasRings": true,
+                "description": "Neptune is the farthest planet from the Sun and is known for its deep blue color and supersonic winds. It is an ice giant with a rocky core surrounded by icy and gaseous layers. Triton, its largest moon, is geologically active, with geysers spewing nitrogen gas into space.",
+                "averageOrbitalSpeed": "5.43 km/s",
+                "image": "assets/images/neptune.png",
+                "surfaceArea": "7.618 billion km²",
+                "rotationPeriod": "16.1 hours"
+            }
+        ]
+    }
+}
